@@ -24,7 +24,11 @@
 }
 
 .grey {
-	background-color: #D3D3D3;
+	background-color: #F6F6F6;
+}
+
+.rotate-waves {
+	transform: rotate(180deg);
 }
 
 /* Header */
@@ -46,7 +50,7 @@
 
 /* Main */
 
-.container>.main-content {
+.main-content.container {
 	display: flex;
 	padding: 50px 0;
 }
