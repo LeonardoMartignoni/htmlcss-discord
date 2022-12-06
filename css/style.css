@@ -2,20 +2,24 @@
 
 .upper-header-content {
     justify-content: space-between;
-}
-
-.upper-header-content>* {
-    background-color: #daa520;
-    padding: 15px;
+    align-items: center;
 }
 
 .upper-header-content>.side {
+    font-size: 18px;
     min-width: 200px;
 }
 
-.upper-header-content>nav {
+.upper-header-content>nav>ul {
+    flex-direction: row;
+    gap: 70px;
     text-align: center;
     flex-grow: 1;
+}
+
+.upper-header-content>nav>ul>li>a {
+    font-size: 18px;
+    color: white;
 }
 
 .upper-header-content>.logo.side {
@@ -24,6 +28,12 @@
 
 .upper-header-content>.login.side {
     text-align: right;
+}
+
+#login-button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 /* Bottom Header */
