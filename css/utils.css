@@ -11,6 +11,10 @@
 	display: table;
 }
 
+.col {
+	flex-direction: column;
+}
+
 .row-reverse {
 	flex-direction: row-reverse;
 }
@@ -26,7 +30,7 @@
 /* Header */
 
 .upper-header {
-	background-color: #3161E0;
+	background-color: #265EE8;
 	padding: 20px 0;
 }
 
@@ -35,8 +39,9 @@
 }
 
 .bottom-header {
-	background-color: #00008B;
-	padding: 50px 0;
+	background-image: url("../img/jumbo.png");
+	background-size: cover;
+	min-height: 600px;
 }
 
 /* Main */

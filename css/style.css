@@ -19,7 +19,6 @@
 
 .upper-header-content>nav>ul>li>a {
     font-size: 18px;
-    color: white;
 }
 
 .upper-header-content>.logo.side {
@@ -38,11 +37,56 @@
 
 /* Bottom Header */
 
-.pink-square {
-    background-color: #EE82EE;
+.header-square {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 900px;
-    height: 400px;
+    min-height: 600px;
     margin: 0 auto;
+}
+
+.header-square>h1 {
+    padding: 30px 0;
+    font-size: 60px;
+}
+
+.header-square>h2 {
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.header-square>* {
+    color: white;
+}
+
+.header-buttons {
+    gap: 40px;
+    padding: 30px 0;
+}
+
+.header-button-download::before {
+    content: "\2193";
+    margin-right: 5px;
+}
+
+.header-button-download {
+    color: black;
+}
+
+.header-button-download {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.header-button-open {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: #23272A;
 }
 
 /* Main content */

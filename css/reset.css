@@ -7,6 +7,9 @@
 * {
 	margin: 0;
 	padding: 0;
+}
+
+button {
 	font: inherit;
 }
 
@@ -24,7 +27,7 @@ video {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 button {
