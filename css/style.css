@@ -155,7 +155,7 @@
 
 .left-footer-box {
     width: calc(100% / 3);
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .left-footer-box>h2 {
@@ -201,7 +201,7 @@
 }
 
 .right-footer-internal-box {
-    padding: 40px;
+    padding: 40px 0;
     width: 25%;
 }
 
