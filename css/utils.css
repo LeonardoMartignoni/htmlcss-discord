@@ -24,10 +24,15 @@
 }
 
 .grey {
-	background-color: #F6F6F6;
+	background-color: rgba(0, 0, 0, 0.05);
 }
 
-.rotate-waves {
+.grey-waves {
+	display: block;
+	opacity: 5%;
+}
+
+.grey-waves.rotate-waves {
 	transform: rotate(180deg);
 }
 
