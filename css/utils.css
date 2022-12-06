@@ -73,7 +73,7 @@ p {
 
 .upper-footer {
 	background-color: #23272A;
-	padding: 20px 0px 40px 0px;
+	padding: 10px 0;
 }
 
 .bottom-footer {
@@ -83,4 +83,5 @@ p {
 
 .bottom-footer-box {
 	padding: 20px 0;
+	margin-bottom: 100px;
 }
